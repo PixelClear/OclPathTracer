@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Adl">
+      <UniqueIdentifier>{5A21E9BB-1A0F-8841-8341-7246D29C629F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl\CL">
+      <UniqueIdentifier>{6F7AB344-C371-F54D-A28B-F96B5123E14B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl\CL\clew">
+      <UniqueIdentifier>{098438AB-6633-8F4D-86D5-C49B8659D52F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl\Host">
+      <UniqueIdentifier>{BC1EAD0F-7B2A-A640-86EF-B57195A6192D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Adl\Adl.inl">
+      <Filter>Adl</Filter>
+    </None>
+    <None Include="..\Adl\AdlKernel.inl">
+      <Filter>Adl</Filter>
+    </None>
+    <None Include="..\Adl\CL\AdlCL.inl">
+      <Filter>Adl\CL</Filter>
+    </None>
+    <None Include="..\Adl\CL\AdlKernelUtilsCL.inl">
+      <Filter>Adl\CL</Filter>
+    </None>
+    <None Include="..\Adl\Host\AdlHost.inl">
+      <Filter>Adl\Host</Filter>
+    </None>
+    <None Include="..\Adl\Host\AdlStopwatchHost.inl">
+      <Filter>Adl\Host</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Adl\Adl.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlConfig.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlError.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlExt.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlKernel.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\CL\clew\clew.h">
+      <Filter>Adl\CL\clew</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Adl\Adl.cpp">
+      <Filter>Adl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Adl\AdlKernel.cpp">
+      <Filter>Adl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Adl\CL\AdlCL.cpp">
+      <Filter>Adl\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Adl\CL\AdlKernelUtilsCL.cpp">
+      <Filter>Adl\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Adl\CL\clew\clew.cpp">
+      <Filter>Adl\CL\clew</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

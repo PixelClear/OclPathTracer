@@ -1,0 +1,21 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+  Adl.cpp
+  AdlKernel.cpp
+  AdlCL.cpp
+  AdlKernelUtilsCL.cpp
+cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+  clew.cpp
+c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'adl::adlu64'
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%llx' in the format string
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%Ix' in the format string
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%I64x' in the format string
+c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'adl::adlu64'
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%llx' in the format string
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%Ix' in the format string
+  c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlkernelutilscl.cpp(90): note: consider using '%I64x' in the format string
+c:\users\paripiyu\desktop\raytracepari\raytrace\adl\cl\adlcl.cpp(39): warning C4018: '<': signed/unsigned mismatch
+  Adl.vcxproj -> C:\Users\PariPiyu\Desktop\RayTracePari\RayTrace\build\..\Adl\Adl64D.lib

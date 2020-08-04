@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{BDC8FF04-CD10-8B43-AABE-88DDE3C53396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl">
+      <UniqueIdentifier>{FFF08C81-13B6-C340-99B9-7C84A4750763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl\CL">
+      <UniqueIdentifier>{895DC556-458F-5C4D-8824-50B2250E9532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adl\CL\clew">
+      <UniqueIdentifier>{70428DDD-8A29-E04A-8474-22CDF3360097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib">
+      <UniqueIdentifier>{30FDF709-9744-B048-A8B3-9238751882EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\src">
+      <UniqueIdentifier>{3F6DE807-212B-CB46-9314-84AA479A534B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\src\gtest-1.6.0">
+      <UniqueIdentifier>{3BA71F37-25D4-D142-AE25-B80DB3D35EC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Adl\Adl.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlConfig.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlError.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlExt.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\AdlKernel.h">
+      <Filter>Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Adl\CL\clew\clew.h">
+      <Filter>Adl\CL\clew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\SharedHeader.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test\main.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\RaytraceTest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\src\gtest-1.6.0\gtest-all.cc">
+      <Filter>contrib\src\gtest-1.6.0</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\test\ClKernels\GenerateColors.cl" />
+  </ItemGroup>
+</Project>
