@@ -1,4 +1,4 @@
-Lincense : ADL (Library developed by Takahior Harada)
+Lincense : ADL (Library developed by Takahiro Harada)
 
 OpenCL based Path tracer.
 
